@@ -1,0 +1,26 @@
+.icon {
+  height: 50px;
+  margin: 25px;
+}
+.externalLinks {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: grid;
+  align-items: center;
+  background-color: #00cccc;
+  height: 150px;
+  width: 112vw;
+  margin-left: -6vw;
+  border-top: 4px solid #000000;
+}
+.backTop {
+  width: 50px;
+  margin-left: 52.5vw;
+  margin-top: -50px;
+  margin-bottom: -30px;
+  border: 2px solid black;
+  background-color: #e9ecef;
+  border-radius: 12px;
+}
