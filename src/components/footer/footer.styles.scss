@@ -18,9 +18,19 @@
 .backTop {
   width: 50px;
   margin-left: 52.5vw;
-  margin-top: -50px;
+  margin-top: -55px;
   margin-bottom: -30px;
   border: 2px solid black;
   background-color: #e9ecef;
   border-radius: 12px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.links {
+  &:hover {
+    cursor: pointer;
+  }
 }
