@@ -28,10 +28,15 @@ class Footer extends React.Component {
           </svg>
         </div>
         <div className='externalLinks'>
-          <Links key={LinkData[0].name} className='links' data={LinkData[0]} />
-          <Links className='links' data={LinkData[1]} />
-          <Links className='links' data={LinkData[2]} />
-          <Links className='links' data={LinkData[3]} />
+          <div className='box'>
+            <Links className='links' data={LinkData[0]} />
+          </div>
+          <div className='box'>
+            <Links className='links' data={LinkData[2]} />
+          </div>
+          <div className='box'>
+            <Links className='links' data={LinkData[3]} />
+          </div>
         </div>
       </div>
     );
@@ -65,4 +70,7 @@ class Footer extends React.Component {
 //   );
 // };
 
+// <div className='box'>
+//   <Links className='links' data={LinkData[1]} />
+// </div>
 export default Footer;
