@@ -43,34 +43,4 @@ class Footer extends React.Component {
   }
 }
 
-// const Footer = () => {
-//   return (
-//     <div className='footer'>
-//       <div className='backTop'>
-//         <svg
-//           xmlns='http://www.w3.org/2000/svg'
-//           className='h-6 w-6 svg'
-//           fill='none'
-//           viewBox='0 0 24 24'
-//           stroke='currentColor'
-//         >
-//           <path
-//             strokeLinecap='round'
-//             strokeLinejoin='round'
-//             strokeWidth='2'
-//             d='M5 11l7-7 7 7M5 19l7-7 7 7'
-//           />
-//         </svg>
-//       </div>
-//       <Links data={LinkData[0]} />
-//       <Links data={LinkData[1]} />
-//       <Links data={LinkData[2]} />
-//       <Links data={LinkData[3]} />
-//     </div>
-//   );
-// };
-
-// <div className='box'>
-//   <Links className='links' data={LinkData[1]} />
-// </div>
 export default Footer;

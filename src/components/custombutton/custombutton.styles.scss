@@ -1,0 +1,17 @@
+.button {
+  align-self: center;
+  font-size: 22px;
+  height: 40px;
+  color: #00cccc;
+  border: solid #00cccc;
+  grid-column: 2;
+  background-color: #343a40;
+  border-radius: 50px;
+  margin: 0 100px;
+  box-shadow: 5px 5px 5px black;
+  transition: box-shadow 0.5s ease;
+
+  &:active {
+    box-shadow: none;
+  }
+}

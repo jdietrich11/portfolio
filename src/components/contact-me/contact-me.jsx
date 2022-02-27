@@ -2,6 +2,8 @@ import React from 'react';
 
 import './contact-me.scss';
 
+import CustomButton from '../custombutton/custombutton';
+
 class ContactMe extends React.Component {
   constructor(props) {
     super(props);
@@ -72,9 +74,7 @@ class ContactMe extends React.Component {
             name='message'
             type='text'
           />
-          <button onClick={this.handleSubmit} className='submit'>
-            Send Message!
-          </button>
+          <CustomButton onClick={this.handleSubmit} data={'Send Message!'} />
         </form>
       </div>
     );
