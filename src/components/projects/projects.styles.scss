@@ -1,5 +1,16 @@
+// #495057
+// #00cccc
+
 .proj {
-  background-color: white;
   height: 500px;
-  margin-left: 50px;
+}
+.area-title {
+  text-align: center;
+  color: #00cccc;
+  font-size: 50px;
+}
+.project-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
