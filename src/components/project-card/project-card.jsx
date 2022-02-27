@@ -16,8 +16,12 @@ function ProjectCard({ data }) {
         <p className='subtitle'>{data.subtitle}</p>
         <img className='image' src={data.projectImg} alt={data.projectName} />
         <div className={hovered ? 'buttons overlay' : 'hidden'}>
-          <button className='btn live'>Live!</button>
-          <button className='btn git'>GitHub</button>
+          <a href={data.liveLink}>
+            <button className='btn live'>Live!</button>
+          </a>
+          <a href={data.githubLink}>
+            <button className='btn git'>GitHub</button>
+          </a>
         </div>
       </div>
     </div>
