@@ -37,9 +37,6 @@ class Projects extends React.Component {
               <CustomButton className='custombtn' data={'hooks'} />
             </div>
             <div>
-              <CustomButton className='custombtn' data={'nodejs'} />
-            </div>
-            <div>
               <CustomButton className='custombtn' data={'C++'} />
             </div>
           </div>
