@@ -12,6 +12,9 @@ class Projects extends React.Component {
       <div className='proj'>
         <div className='area-title'>
           <h5 className='title'>Projects</h5>
+          <div className='subtitle'>
+            Here is a list of languages I have experience with...
+          </div>
         </div>
         <div className='exp-container'>
           <div className='exp'>

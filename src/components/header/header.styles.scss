@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 112;
+  background-color: black;
+  width: max(1000px);
+  margin: auto;
+
+  .home {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .logo {
+      width: 24px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.locations {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.item {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

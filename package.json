@@ -15,6 +15,7 @@
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.6",
     "remote-redux-devtools": "^0.5.16",
     "scss": "^0.2.4",
     "semantic-ui-css": "^2.4.1",

@@ -55,7 +55,7 @@ class ContactMe extends React.Component {
 
   render() {
     return (
-      <div className='container'>
+      <div className='contact-me-container'>
         <form onSubmit={this.handleSubmit} className='form'>
           <input
             onChange={this.handleChange}

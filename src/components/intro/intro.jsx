@@ -5,10 +5,9 @@ import CustomButton from '../custombutton/custombutton';
 import './intro.styles.scss';
 
 class Intro extends React.Component {
-  handleClick = (e) => {
+  handleClick = () => {
     const form = document.querySelector('.form');
     form.scrollIntoView();
-    console.log(e);
   };
 
   render() {
