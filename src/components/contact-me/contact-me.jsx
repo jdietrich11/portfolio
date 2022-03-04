@@ -1,8 +1,14 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
 
 import './contact-me.scss';
 
 import CustomButton from '../custombutton/custombutton';
+
+const SERVICE_ID = 'service_86atefd';
+const TEMPLATE_ID = 'template_icm2lr7';
+const USER_ID = 'QdZ1IWd_VGfEq2ZQ6';
 
 class ContactMe extends React.Component {
   constructor(props) {
@@ -30,7 +36,20 @@ class ContactMe extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    console.log(this.state);
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
+      (res) => {
+        console.log(res.text);
+        Swal.fire({
+          icon: 'success',
+          title: 'Message Sent Successfully!',
+        });
+      },
+      (error) => ({
+        icon: 'error',
+        title: 'Oooops, Something went wrong',
+        text: error.text,
+      })
+    );
     this.setState({ name: '', email: '', subject: '', message: '' });
   }
 
