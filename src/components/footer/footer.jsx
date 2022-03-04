@@ -11,7 +11,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div className='footer'>
-        <div className='backTop'>
+        <div className='backTop' onClick={(e) => window.scroll(0, 0)}>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-6 w-6 svg'

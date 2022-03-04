@@ -5,6 +5,12 @@ import CustomButton from '../custombutton/custombutton';
 import './intro.styles.scss';
 
 class Intro extends React.Component {
+  handleClick = (e) => {
+    const form = document.querySelector('.form');
+    form.scrollIntoView();
+    console.log(e);
+  };
+
   render() {
     return (
       <div className='intro-container'>
@@ -20,7 +26,7 @@ class Intro extends React.Component {
               experience.
             </div>
           </div>
-          <div className='contactbtn'>
+          <div onClick={this.handleClick} className='contactbtn'>
             <CustomButton data={'Contact Me!'} className='custombtn' />
           </div>
         </div>
