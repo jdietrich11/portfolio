@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './more.styles.scss';
 
@@ -12,7 +13,9 @@ const MoreAbout = () => {
         basketball to gaming and movies, for more about me and my personal
         interests...
       </div>
-      <CustomButton data={'click here'} />
+      <Link to='/about'>
+        <CustomButton data={'click here'} />
+      </Link>
     </div>
   );
 };
