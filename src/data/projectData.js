@@ -1,7 +1,7 @@
 const projectData = [
   {
     projectName: 'Mapty',
-    subtitle: 'exercize tracker',
+    subtitle: 'Exercise Tracker',
     githubLink: 'https://github.com/jdietrich11/Mapty',
     liveLink: 'https://jdmapty.netlify.app/',
     projectImg: require('./webImages/Mapty.png'),
@@ -17,7 +17,7 @@ const projectData = [
   },
   {
     projectName: 'Omnifood',
-    subtitle: 'food-deliver ecommerce',
+    subtitle: 'Food-Deliver Ecommerce',
     githubLink: 'https://github.com/jdietrich11/OmniFood',
     liveLink: 'https://omnifood-josh.netlify.app/',
     projectImg: require('./webImages/omnifood.png'),
@@ -25,7 +25,7 @@ const projectData = [
   },
   {
     projectName: 'Crown Clothing',
-    subtitle: 'clothing ecommerce',
+    subtitle: 'Clothing Ecommerce',
     githubLink: 'https://github.com/jdietrich11/crwn-clothing2.0',
     liveLink: 'https://jdcrwn-clothing.herokuapp.com/shop/hats',
     projectImg: require('./webImages/crwnclothing.png'),

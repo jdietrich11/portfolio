@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../header/header';
 import Intro from '../intro/intro';
+import MoreAbout from '../more/more';
 import Projects from '../projects/projects';
 import ContactMe from '../contact-me/contact-me';
 import Footer from '../footer/footer';
@@ -14,6 +15,7 @@ class App extends React.Component {
       <div className='background'>
         <Header />
         <Intro />
+        <MoreAbout />
         <Projects />
         <ContactMe />
         <Footer />

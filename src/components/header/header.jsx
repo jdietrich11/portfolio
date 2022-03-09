@@ -3,21 +3,21 @@ import React from 'react';
 import './header.styles.scss';
 
 class Header extends React.Component {
+  handleHomeClick = () => {
+    window.scroll(0, 0);
+  };
   handleMoreClick = () => {
     const more = document.querySelector('.more-container');
     more.scrollIntoView();
-    console.log('done');
   };
 
   handleProjClick = () => {
     const proj = document.querySelector('.proj');
     proj.scrollIntoView();
-    console.log('done');
   };
   handleContactClick = () => {
     const contact = document.querySelector('.contact-me-container');
     contact.scrollIntoView();
-    console.log('done');
   };
 
   render() {
@@ -28,9 +28,10 @@ class Header extends React.Component {
             className='logo'
             src={require('../../data/logo/logo.png')}
             alt='my Logo'
+            onClick={this.handleHomeClick}
           />
           <div>
-            <div className='item' to='Intro'>
+            <div onClick={this.handleHomeClick} className='item' to='Intro'>
               Home
             </div>
           </div>
