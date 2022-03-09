@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import App from './components/app/app';
-import AboutMe from './components/aboutme/aboutme';
+import App from './pages/app/app';
+import AboutMe from './pages/aboutme/aboutme';
 
 const rootElement = document.querySelector('#root');
 

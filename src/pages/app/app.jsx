@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Header from '../header/header';
-import Intro from '../intro/intro';
-import MoreAbout from '../more/more';
-import Projects from '../projects/projects';
-import ContactMe from '../contact-me/contact-me';
-import Footer from '../footer/footer';
+import Header from '../../components/header/header';
+import Intro from '../../components/intro/intro';
+import MoreAbout from '../../components/more/more';
+import Projects from '../../components/projects/projects';
+import ContactMe from '../../components/contact-me/contact-me';
+import Footer from '../../components/footer/footer';
 
 import './app.styles.scss';
 
