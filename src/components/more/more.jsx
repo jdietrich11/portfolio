@@ -13,7 +13,7 @@ const MoreAbout = () => {
         basketball to gaming and movies, for more about me and my personal
         interests...
       </div>
-      <Link to='/about'>
+      <Link className='link' to='/about'>
         <CustomButton data={'click here'} />
       </Link>
     </div>
