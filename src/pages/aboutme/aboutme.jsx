@@ -2,7 +2,7 @@ import React from 'react';
 
 import './aboutme.styles.scss';
 
-import Books from '../../components/about/books/books';
+import Outdoors from '../../components/about/outdoors/outdoors';
 import Cars from '../../components/about/cars/cars';
 import Gaming from '../../components/about/gaming/gaming';
 import Movies from '../../components/about/movies/movies';
@@ -18,9 +18,9 @@ const AboutMe = () => {
       <Gaming />
       <Movies />
       <TvShows />
-      <Books />
       <Cars />
       <Projects />
+      <Outdoors />
       <Sports />
     </div>
   );

@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Books = () => {
+const Outdoors = () => {
   return (
     <div className='about-container'>
       <div className='sidename'>
-        <div className='sidename-title'>Books</div>
+        <div className='sidename-title'>Outdoors</div>
       </div>
       <div className='content'></div>
     </div>
   );
 };
 
-export default Books;
+export default Outdoors;
