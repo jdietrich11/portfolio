@@ -9,12 +9,11 @@ const MoreAbout = () => {
   return (
     <div className='more-container'>
       <div className='more-text'>
-        I consider myself a man of many interests varying from camping to
-        basketball to gaming and movies, for more about me and my personal
-        interests...
+        I have varying interests. Below are links to a blog about some of my
+        personal interests and my resume respectively
       </div>
       <Link className='link' to='/about'>
-        <CustomButton data={'click here'} />
+        <CustomButton data={'Personal Interests'} />
       </Link>
     </div>
   );
