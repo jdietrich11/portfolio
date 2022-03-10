@@ -5,16 +5,21 @@ import './more.styles.scss';
 
 import CustomButton from '../custombutton/custombutton';
 
-const MoreAbout = () => {
+const MoreAbout = ({ show }) => {
   return (
     <div className='more-container'>
       <div className='more-text'>
         I have varying interests. Below are links to a blog about some of my
         personal interests and my resume respectively
       </div>
-      <Link className='link' to='/about'>
-        <CustomButton data={'Personal Interests'} />
-      </Link>
+      <div className='link-container'>
+        <Link className='link' to='/about'>
+          <CustomButton data={'Personal Interests'} />
+        </Link>
+        <Link className='link' to='/resume'>
+          <CustomButton className='test' data={'Resume'} />
+        </Link>
+      </div>
     </div>
   );
 };
