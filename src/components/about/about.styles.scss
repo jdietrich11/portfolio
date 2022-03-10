@@ -1,12 +1,8 @@
-* {
-  background-color: black;
-}
 .about-container {
   display: grid;
   grid-template-columns: 10vw 90vw;
   background-color: black;
   width: max(1000px);
-  height: max(115vh);
   margin: auto;
   border-bottom: 3px solid #00cccc;
 }
@@ -28,7 +24,7 @@
   font-size: 30px;
   color: #00cccc;
   margin-left: 2em;
-  margin-top: 24px;
+  margin-top: 62px;
 }
 .answer {
   color: white;
@@ -50,5 +46,18 @@
     &:hover {
       cursor: pointer;
     }
+  }
+
+  &:last-child {
+    margin-bottom: 84px;
+  }
+}
+
+.project-description {
+  color: white;
+  text-indent: 2em;
+  margin-top: 12px;
+  &:last-child {
+    margin-bottom: 84px;
   }
 }
