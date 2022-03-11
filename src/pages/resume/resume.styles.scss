@@ -1,0 +1,66 @@
+.resume {
+  width: max(700px);
+  margin: auto;
+}
+.section {
+  margin-top: 22px;
+}
+.about-info {
+  display: flex;
+  justify-content: space-between;
+}
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: rgb(207, 207, 207);
+  margin-bottom: 12px;
+}
+.section-info {
+  text-indent: 2em;
+}
+.my-name {
+  text-align: center;
+  font-size: 72px;
+}
+.my-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+.job {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin-bottom: 12px;
+}
+.job-description {
+  grid-column: 1 /-1;
+  text-indent: 2em;
+}
+.job-title {
+  font-weight: bold;
+}
+.company {
+  font-style: italic;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+.experiences {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.prog-lang {
+  border-right: 2px solid black;
+  text-align: center;
+  &:last-child {
+    border-right: none;
+  }
+}
+.award {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 32px;
+}
