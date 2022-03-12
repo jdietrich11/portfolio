@@ -1,13 +1,12 @@
 body {
   background-color: black;
+  overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;
   font-family: 'Source Serif Pro', serif;
 }
 .background {
-  background-color: black;
-  width: 105vw;
   margin-left: -2vw;
   margin-top: -2vw;
 }

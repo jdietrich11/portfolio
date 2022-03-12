@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 
 import './contact-me.scss';
+import './contact-me.media.scss';
 
 import CustomButton from '../custombutton/custombutton';
 
