@@ -1,16 +1,18 @@
 @media (max-width: 600px) {
   .card {
-    width: 90vw;
+    width: 88vw;
     opacity: 100%;
-    height: 90%;
+    height: 95%;
     border-radius: 22px;
+    margin-left: 5px;
 
     overflow-y: hidden;
+    overflow: hidden;
     .title {
       margin-top: 24px;
       font-size: 32px;
       border-radius: 22px;
-      width: auto;
+      width: 90%;
       margin-left: 50%;
       transform: translateX(-50%);
     }

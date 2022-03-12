@@ -15,8 +15,12 @@
 }
 .about-info {
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  .email,
+  .name {
+    width: max-content;
+  }
 }
 .section-title {
   font-weight: bold;
@@ -95,5 +99,33 @@
     align-self: center;
 
     transition: transform 3s ease;
+  }
+}
+
+@media (max-width: 650px) {
+  .resume {
+    width: 90vw;
+
+    * {
+      font-size: 0.75rem;
+    }
+    .about-info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .my-name {
+    font-size: 2rem;
+  }
+  .my-title {
+    font-size: 1.5rem;
+  }
+  .section-info {
+    font-size: 0.75rem;
+  }
+  .job-description,
+  .job-title,
+  .company {
+    font-size: 0.75rem;
   }
 }

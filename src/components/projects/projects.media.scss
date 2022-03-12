@@ -25,12 +25,13 @@
     gap: 0;
     margin: auto;
     grid-template-columns: repeat(3, 33vw);
+    place-items: center;
     .button {
       margin: 0;
     }
   }
   .project-container {
-    width: 90vw;
+    width: 93vw;
     overflow-x: scroll;
     justify-content: left;
 

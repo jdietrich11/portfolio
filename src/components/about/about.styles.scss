@@ -67,3 +67,14 @@
     margin-bottom: 84px;
   }
 }
+
+@media (max-width: 650px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidename {
+    transform: none;
+    font-size: 3rem;
+  }
+}
