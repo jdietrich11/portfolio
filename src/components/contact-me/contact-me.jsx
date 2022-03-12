@@ -58,24 +58,26 @@ class ContactMe extends React.Component {
     return (
       <div className='contact-me-container'>
         <form onSubmit={this.handleSubmit} className='form'>
-          <input
-            onChange={this.handleChange}
-            className='name input'
-            type='text'
-            placeholder='Name:'
-            name='name'
-            value={this.state.name}
-            required
-          />
-          <input
-            onChange={this.handleChange}
-            required
-            placeholder='Email:'
-            className='input email'
-            value={this.state.email}
-            name='email'
-            type='email'
-          />
+          <div className='contact'>
+            <input
+              onChange={this.handleChange}
+              className='name input'
+              type='text'
+              placeholder='Name:'
+              name='name'
+              value={this.state.name}
+              required
+            />
+            <input
+              onChange={this.handleChange}
+              required
+              placeholder='Email:'
+              className='input email'
+              value={this.state.email}
+              name='email'
+              type='email'
+            />
+          </div>
           <input
             onChange={this.handleChange}
             value={this.state.subject}

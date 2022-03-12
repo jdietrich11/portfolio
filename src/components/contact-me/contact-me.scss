@@ -1,23 +1,18 @@
 .contact-me-container {
   margin: auto;
-  height: 400px;
-  display: flexbox;
   background-color: #343a40;
-  width: max(900px);
+  max-width: 900px;
   margin-bottom: 75px;
-  overflow-y: hidden;
 }
 .form {
-  padding: 45px;
+  padding: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 45px 45px 150px 45px;
-  gap: 15px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 5fr 2fr;
+  row-gap: 6px;
 }
 .input {
   background-color: #495057;
-  align-self: center;
-  height: 45px;
   font-size: 22px;
   border: solid black;
 
@@ -25,10 +20,15 @@
     outline: none;
   }
 }
+
+.contact {
+  grid-column: 1 /-1;
+  display: flex;
+  justify-content: space-between;
+}
+.name,
 .email {
-  ::placeholder {
-    font-size: 2px;
-  }
+  width: 49%;
 }
 .subject {
   grid-column: 1 / -1;

@@ -20,18 +20,18 @@
   top: 25%;
   left: 50%;
   height: 70vh;
-  width: max(1000px);
+  width: max(900px);
   transform: translatex(-50%);
   // border: 3px solid green;
   backdrop-filter: brightness(80%);
 }
 .myname {
-  font-size: 84px;
+  font-size: 5rem;
   filter: saturate(150%);
 }
 .mytitle {
   color: #00cccc;
-  font-size: 48px;
+  font-size: 3.5rem;
   margin-top: 12px;
   text-align: center;
 }
