@@ -5,6 +5,7 @@ import projectData from '../../data/projectData';
 import ProjectCard from '../project-card/project-card';
 
 import './projects.styles.scss';
+import './projects.media.scss';
 
 class Projects extends React.Component {
   render() {
@@ -45,10 +46,10 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className='project-container'>
-          <ProjectCard data={projectData[0]} />
-          <ProjectCard data={projectData[1]} />
-          <ProjectCard data={projectData[2]} />
-          <ProjectCard data={projectData[3]} />
+          <ProjectCard className='test1' data={projectData[0]} />
+          <ProjectCard className='test2' data={projectData[1]} />
+          <ProjectCard className='test3' data={projectData[2]} />
+          <ProjectCard className='test4' data={projectData[3]} />
         </div>
       </div>
     );

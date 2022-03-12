@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './header.styles.scss';
+import './header.media.styles.scss';
 
 class Header extends React.Component {
   handleHomeClick = () => {

@@ -3,6 +3,7 @@ import React from 'react';
 import CustomButton from '../custombutton/custombutton';
 
 import './intro.styles.scss';
+import './intro.media.sytles.scss';
 
 class Intro extends React.Component {
   handleClick = () => {

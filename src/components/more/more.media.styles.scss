@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+  .more-container {
+    width: 90%;
+    height: 30vh;
+    margin-left: 50%;
+    margin-bottom: 0;
+    transform: translate(-50%, 0);
+
+    .button {
+      font-size: 14px;
+      width: 150px;
+      height: 25px;
+    }
+  }
+  .more-text {
+    font-size: 14px;
+    margin-bottom: none;
+  }
+  .link-container {
+    margin: auto;
+    margin-top: 0;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+  }
+  .link {
+  }
+}

@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+  .menu {
+    max-width: 100%;
+    justify-content: center;
+    gap: 6px;
+    margin-left: 36px;
+    .home {
+      .logo {
+      }
+    }
+  }
+  .locations {
+  }
+  .item {
+    font-size: 16px;
+  }
+}

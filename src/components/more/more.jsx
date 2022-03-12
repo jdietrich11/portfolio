@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './more.styles.scss';
+import './more.media.styles.scss';
 
 import CustomButton from '../custombutton/custombutton';
 
@@ -17,7 +18,7 @@ const MoreAbout = ({ show }) => {
           <CustomButton data={'Personal Interests'} />
         </Link>
         <Link className='link' to='/resume'>
-          <CustomButton className='test' data={'Resume'} />
+          <CustomButton data={'Resume'} />
         </Link>
       </div>
     </div>
