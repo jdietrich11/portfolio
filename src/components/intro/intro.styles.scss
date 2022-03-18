@@ -20,31 +20,31 @@
   top: 25%;
   left: 50%;
   height: 70vh;
-  width: max(900px);
+  width: max(90rem);
   transform: translatex(-50%);
   // border: 3px solid green;
   backdrop-filter: brightness(80%);
 }
 .myname {
-  font-size: 5rem;
+  font-size: 6rem;
   filter: saturate(150%);
 }
 .mytitle {
   color: #00cccc;
   font-size: 3.5rem;
-  margin-top: 12px;
+  margin-top: 1.2rem;
   text-align: center;
 }
 .myintro-container {
-  margin-top: 20px;
+  margin-top: 2rem;
   width: 60vw;
   margin: auto;
   .myintro {
-    margin-top: 70px;
+    margin-top: 7rem;
   }
 }
 .contactbtn {
   position: absolute;
-  bottom: 50px;
-  right: -75px;
+  bottom: 5rem;
+  right: -7.5rem;
 }

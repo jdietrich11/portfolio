@@ -7,18 +7,18 @@
   top: 0;
   z-index: 112;
   background-color: black;
-  width: max(900px);
+  width: max(90rem);
   margin: auto;
   overflow-y: hidden;
 
   .home {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-left: -115px;
+    gap: 1.2rem;
+    margin-left: -11.5rem;
 
     .logo {
-      width: 24px;
+      width: 2.4rem;
 
       &:hover {
         cursor: pointer;
@@ -30,13 +30,13 @@
 .locations {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: 1.2rem;
 }
 
 .item {
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  font-size: 2.4rem;
 
   &:hover {
     cursor: pointer;

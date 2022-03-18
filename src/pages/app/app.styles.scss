@@ -5,14 +5,13 @@ body {
 html {
   scroll-behavior: smooth;
   font-family: 'Source Serif Pro', serif;
+  overflow: scroll;
+  overflow-x: hidden;
+  font-size: 10px;
 }
 .background {
   margin-left: -2vw;
   margin-top: -2vw;
-}
-html {
-  overflow: scroll;
-  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */

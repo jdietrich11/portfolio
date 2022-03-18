@@ -1,17 +1,17 @@
 .resume {
-  padding: 12px;
-  width: max(700px);
+  padding: 1.2rem;
+  width: max(70rem);
   margin: auto;
   background-color: #e9ecef;
 
   .icon {
-    width: 12px;
-    height: 12px;
-    margin-right: 5px;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
   }
 }
 .section {
-  margin-top: 22px;
+  margin-top: 2.2rem;
 }
 .about-info {
   display: flex;
@@ -24,42 +24,42 @@
 }
 .section-title {
   font-weight: bold;
-  border: 2px solid black;
+  border: 0.2rem solid black;
   background-color: rgb(207, 207, 207);
-  margin-bottom: 12px;
-  font-size: 18px;
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
   display: flex;
   justify-content: center;
   align-content: center;
 
   .icon {
-    width: 16px;
-    height: 16px;
+    width: 1.6rem;
+    height: 1.6rem;
   }
 }
 .section-info {
   text-indent: 2em;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 .my-name {
   text-align: center;
-  font-size: 72px;
+  font-size: 7.2rem;
 }
 .my-title {
   text-align: center;
-  font-size: 36px;
-  margin-bottom: 12px;
+  font-size: 3.6rem;
+  margin-bottom: 1.2rem;
 }
 .job {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 .job-description {
   grid-column: 1 /-1;
   text-indent: 2em;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 .job-title {
@@ -79,7 +79,7 @@
   grid-template-columns: repeat(8, 1fr);
 }
 .prog-lang {
-  border-right: 2px solid black;
+  border-right: 0.2rem solid black;
   text-align: center;
   &:last-child {
     border-right: none;
@@ -87,14 +87,14 @@
 }
 .award {
   display: flex;
-  gap: 22px;
-  margin-bottom: 32px;
+  gap: 2.2rem;
+  margin-bottom: 3.2rem;
 }
 
 .footer {
   .icon {
-    height: 50px;
-    width: 50px;
+    height: 5rem;
+    width: 5rem;
     justify-content: center;
     align-self: center;
 
@@ -102,7 +102,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 65rem) {
   .resume {
     width: 90vw;
 
