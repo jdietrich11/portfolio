@@ -4,47 +4,54 @@
   position: relative;
   top: 0;
   left: 0;
-}
-.backgroundimg {
-  background-image: url(https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1812&q=80);
-  background-position: center;
-  background-repeat: none;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.foreground {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  height: 70vh;
-  width: max(90rem);
-  transform: translatex(-50%);
-  // border: 3px solid green;
-  backdrop-filter: brightness(80%);
-}
-.myname {
-  font-size: 6rem;
-  filter: saturate(150%);
-}
-.mytitle {
-  color: #00cccc;
-  font-size: 3.5rem;
-  margin-top: 1.2rem;
-  text-align: center;
-}
-.myintro-container {
-  margin-top: 2rem;
-  width: 60vw;
-  margin: auto;
-  .myintro {
-    margin-top: 7rem;
+  .backgroundimg {
+    background-image: url(https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1812&q=80);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
   }
-}
-.contactbtn {
-  position: absolute;
-  bottom: 5rem;
-  right: -7.5rem;
+  .foreground {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    height: 70vh;
+    width: 90vw;
+    max-width: 90rem;
+    transform: translatex(-50%);
+    // border: 3px solid green;
+    backdrop-filter: brightness(80%);
+    .myname {
+      font-size: 6rem;
+      filter: saturate(150%);
+    }
+    .mytitle {
+      color: #00cccc;
+      font-size: 3.5rem;
+      margin-top: 1.2rem;
+      text-align: center;
+    }
+    .myintro-container {
+      margin-top: 2rem;
+      width: 60vw;
+      margin: auto;
+      .myintro {
+        margin-top: 7rem;
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+      }
+    }
+    .contactbtn {
+      position: absolute;
+      bottom: 5rem;
+      right: -7.5rem;
+
+      .button {
+        width: 20rem;
+      }
+    }
+  }
 }

@@ -1,45 +1,42 @@
 .menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 10vh;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 112;
   background-color: black;
-  width: max(90rem);
+  width: 95vw;
+  max-width: 90rem;
   margin: auto;
   overflow-y: hidden;
 
   .home {
     display: flex;
-    align-items: center;
-    gap: 1.2rem;
-    margin-left: -11.5rem;
-
+    gap: 2rem;
+    margin-left: 1rem;
     .logo {
-      width: 2.4rem;
-
+      width: 3.5rem;
       &:hover {
         cursor: pointer;
       }
     }
   }
-}
+  .locations {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+  }
 
-.locations {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.2rem;
-}
+  .item {
+    text-decoration: none;
+    color: white;
+    font-size: 2.4rem;
 
-.item {
-  text-decoration: none;
-  color: white;
-  font-size: 2.4rem;
-
-  &:hover {
-    cursor: pointer;
-    color: #00cccc;
+    &:hover {
+      cursor: pointer;
+      color: #00cccc;
+    }
   }
 }
