@@ -65,11 +65,13 @@
 }
 .job-title {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 .company {
   font-style: italic;
   text-decoration: none;
   color: black;
+  font-size: 1.2rem;
 
   &:hover {
     cursor: pointer;
@@ -100,5 +102,19 @@
     align-self: center;
 
     transition: transform 3s ease;
+  }
+}
+
+@media (max-width: 600px) {
+  .resume {
+    width: 90vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+
+    .about-info {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }

@@ -1,24 +1,5 @@
 @media (max-width: 600px) {
   .contact-me-container {
-    width: 90vw;
-    height: auto;
-    overflow-y: hidden;
-    .form {
-      display: flex;
-      flex-direction: column;
-      padding: 12px;
-      .input {
-        font-size: 12px;
-        height: 16px;
-        width: 100%;
-      }
-      .message {
-        height: 75px;
-      }
-      .button {
-        font-size: 14px;
-        width: 150px;
-      }
-    }
+    border-radius: 1rem;
   }
 }
