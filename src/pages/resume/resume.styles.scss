@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 1.6rem;
   .email,
   .name {
     width: max-content;
@@ -99,33 +100,5 @@
     align-self: center;
 
     transition: transform 3s ease;
-  }
-}
-
-@media (max-width: 65rem) {
-  .resume {
-    width: 90vw;
-
-    * {
-      font-size: 0.75rem;
-    }
-    .about-info {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  .my-name {
-    font-size: 2rem;
-  }
-  .my-title {
-    font-size: 1.5rem;
-  }
-  .section-info {
-    font-size: 0.75rem;
-  }
-  .job-description,
-  .job-title,
-  .company {
-    font-size: 0.75rem;
   }
 }

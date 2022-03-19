@@ -3,20 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-  overflow: scroll;
-  overflow-x: hidden;
-  font-size: 10px;
-}
-body {
-  background-color: black;
-  overflow-x: hidden;
-  font-family: 'Source Serif Pro', serif;
-}
-.background {
-  margin-left: -2vw;
-  margin-top: -2vw;
+@media (min-width: 601px) {
+  html {
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-size: 10px;
+  }
+  body {
+    background-color: black;
+    overflow-x: hidden;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .background {
+    margin-left: -2vw;
+    margin-top: -2vw;
+  }
 }
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
@@ -24,5 +26,10 @@ body {
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-  background: #ff0000;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: black;
+  }
 }

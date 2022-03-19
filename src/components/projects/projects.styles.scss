@@ -2,7 +2,6 @@
 // #00cccc
 
 .proj {
-  height: 70rem;
   display: grid;
   margin: auto;
   grid-template-columns: 1fr 1fr 1fr;
@@ -54,8 +53,8 @@
     }
     &::-webkit-scrollbar-thumb {
       background-color: #00cccc;
-      border-radius: 100px;
-      -webkit-border-radius: 10px;
+      border-radius: 10rem;
+      -webkit-border-radius: 1rem;
     }
   }
 

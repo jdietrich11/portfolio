@@ -31,20 +31,6 @@
     }
   }
   .project-container {
-    width: 93vw;
-    overflow-x: scroll;
-    justify-content: left;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
-
-    .scrollbar-hidden::-webkit-scrollbar {
-      display: none;
-    }
-    .scrollbar-hidden {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    }
+    height: 45rem !important;
   }
 }

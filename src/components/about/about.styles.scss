@@ -27,7 +27,7 @@
   color: #00cccc;
 }
 .question {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #00cccc;
   margin-left: 5rem;
   margin-top: 6.2rem;
@@ -36,6 +36,7 @@
   color: white;
   text-indent: 5rem;
   margin-top: 1.2rem;
+  font-size: 1.5rem;
 
   li {
     list-style: none;
@@ -63,12 +64,16 @@
   color: white;
   text-indent: 4rem;
   margin-top: 1.2rem;
+  font-size: 1.5rem;
   &:last-child {
     margin-bottom: 8.4rem;
   }
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 600px) {
+  html {
+    font-size: 8px;
+  }
   .about-container {
     display: flex;
     flex-direction: column;

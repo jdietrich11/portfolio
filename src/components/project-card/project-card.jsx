@@ -12,9 +12,9 @@ function ProjectCard({ data }) {
       <p className='subtitle'>{data.subtitle}</p>
       <div className='project-info'>
         <img className='image' src={data.projectImg} alt={data.projectName} />
-        <div className={hovered ? 'buttons overlay' : 'hidden'}>
+        <div className={hovered ? 'overlay' : 'hidden'}>
           <div className='list'>
-            <div className='used'>What I used</div>
+            <div className='used'>What I used:</div>
             <ul className='ul'>
               <li className='li'>{data.languagesUsed[0]}</li>
               <li className='li'>{data.languagesUsed[1]}</li>
