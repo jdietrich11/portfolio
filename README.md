@@ -1,7 +1,7 @@
 Personal profile website
 
 TODO:
-header for singlepage design
+header for singlepage design (access to any information should be in as few clicks as possible)
 responsive space design backgournd for start
 sortable projects based on langues used
 github links to projects
