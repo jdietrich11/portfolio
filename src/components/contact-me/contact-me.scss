@@ -48,6 +48,13 @@
     .button {
       width: 20rem;
       margin: auto;
+      &:hover {
+        cursor: pointer;
+        transform: translateY(-1px);
+      }
+      &:active {
+        transform: translateY(0);
+      }
     }
   }
 }

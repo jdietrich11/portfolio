@@ -50,6 +50,15 @@
 
       .button {
         width: 20rem;
+
+        &:hover {
+          cursor: pointer;
+          transform: translateY(-1px);
+        }
+
+        &:active {
+          transform: translateY(0);
+        }
       }
     }
   }

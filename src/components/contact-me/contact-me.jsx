@@ -96,7 +96,11 @@ class ContactMe extends React.Component {
             name='message'
             type='text'
           />
-          <CustomButton onClick={this.handleSubmit} data={'Send Message!'} />
+          <CustomButton
+            className='custom_btn'
+            onClick={this.handleSubmit}
+            data={'Send Message!'}
+          />
         </form>
       </div>
     );

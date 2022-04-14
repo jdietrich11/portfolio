@@ -1,38 +1,46 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './project-card.styles.scss';
 import './project-card.media.scss';
 
 function ProjectCard({ data }) {
-  const [hovered, setHovered] = useState(false);
-  const toggleHover = () => setHovered(!hovered);
+  let langs = data.languagesUsed;
+  console.log(data);
   return (
-    <div className='card' onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
-      <h3 className='title'>{data.projectName}</h3>
-      <p className='subtitle'>{data.subtitle}</p>
-      <div className='project-info'>
-        <img className='image' src={data.projectImg} alt={data.projectName} />
-        <div className={hovered ? 'overlay' : 'hidden'}>
-          <div className='list'>
-            <div className='used'>What I used:</div>
-            <ul className='ul'>
-              <li className='li'>{data.languagesUsed[0]}</li>
-              <li className='li'>{data.languagesUsed[1]}</li>
-              <li className='li'>{data.languagesUsed[2]}</li>
-              <li className='li'>{data.languagesUsed[3]}</li>
-            </ul>
+    <div className='card'>
+      <div className='card__side card__side--front'>
+        <div
+          className='card__layer'
+          style={{ 'background-image': `url(${data.logo})` }}
+        >
+          <div className='card__front-details'>
+            <div className='card__title'>{data.projectName}</div>
+            <div className='card__sub'>{data.subtitle}</div>
+            <div className='card__langs'>
+              <div className='card__langs__title'>Langues Used:</div>
+              {langs.map((i) => {
+                return (
+                  <div className='card__langs__lang' key={i}>
+                    {i}
+                  </div>
+                );
+              })}
+            </div>
           </div>
-          <div className='bottom-buttons'>
-            <div>
-              <a href={data.liveLink}>
-                <button className='btn live'>Live!</button>
-              </a>
-            </div>
-            <div>
-              <a href={data.githubLink}>
-                <button className='btn git'>GitHub</button>
-              </a>
-            </div>
+        </div>
+      </div>
+      <div className='card__side card__side--back'>
+        <div
+          className='back'
+          style={{ 'background-image': `url(${data.projectImg})` }}
+        >
+          <div className='back__background'>
+            <a href={data.liveLink}>
+              <button className='back__btn back__btn-live'>Live!</button>
+            </a>
+            <a href={data.githubLink}>
+              <button className='back__btn back__btn-github'>Github</button>
+            </a>
           </div>
         </div>
       </div>

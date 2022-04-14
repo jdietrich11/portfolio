@@ -2,13 +2,18 @@
 // #00cccc
 
 .proj {
-  display: grid;
   margin: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10rem 25rem 1fr;
   scroll-margin-top: 10rem;
   width: 90vw;
   max-width: 90rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > * {
+    margin-bottom: 3.5rem;
+  }
+
   .area-title {
     grid-column: 2/3;
     justify-content: center;
@@ -40,22 +45,12 @@
       }
     }
   }
-  .project-container {
-    grid-row: 3/4;
-    grid-column: 1 / 4;
-    display: flex;
-    gap: 2rem;
-    overflow-x: hidden;
-    overflow-x: scroll;
-    height: 29rem;
-    &::-webkit-scrollbar-track {
-      background-color: none;
-    }
-    &::-webkit-scrollbar-thumb {
-      background-color: #00cccc;
-      border-radius: 10rem;
-      -webkit-border-radius: 1rem;
-    }
+  & .project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    gap: 1rem;
   }
 
   .button {
