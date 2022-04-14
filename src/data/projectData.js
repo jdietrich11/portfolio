@@ -16,6 +16,14 @@ const projectData = [
     languagesUsed: ['HTML', 'CSS', 'JavaScript'],
   },
   {
+    projectName: 'React BlackJack',
+    subtitle: 'React Blackjack game',
+    githubLink: 'https://github.com/jdietrich11/react-blackjack2.0',
+    liveLink: 'https://jd-react-blackjack.netlify.app/',
+    projectImg: require('./webImages/ReactBlackJack.png'),
+    languagesUsed: ['React', 'SASS'],
+  },
+  {
     projectName: 'Omnifood',
     subtitle: 'Food-Deliver Ecommerce',
     githubLink: 'https://github.com/jdietrich11/OmniFood',

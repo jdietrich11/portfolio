@@ -46,10 +46,13 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className='project-container'>
-          <ProjectCard className='project-card' data={projectData[0]} />
-          <ProjectCard className='project-card' data={projectData[1]} />
-          <ProjectCard className='project-card' data={projectData[2]} />
-          <ProjectCard className='project-card' data={projectData[3]} />
+          {projectData.map((i) => {
+            return (
+              <>
+                <ProjectCard className='project-card' data={i} />
+              </>
+            );
+          })}
         </div>
       </div>
     );
