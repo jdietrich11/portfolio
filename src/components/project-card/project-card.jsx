@@ -11,7 +11,7 @@ function ProjectCard({ data }) {
         <div className='card__layer'>
           <div className='logo-box'>
             <div
-              style={{ 'background-image': `url(${data.logo})` }}
+              style={{ backgroundImage: `url(${data.logo})` }}
               className='card__logo'
             ></div>
           </div>
@@ -34,7 +34,7 @@ function ProjectCard({ data }) {
       <div className='card__side card__side--back'>
         <div
           className='back'
-          style={{ 'background-image': `url(${data.projectImg})` }}
+          style={{ backgroundImage: `url(${data.projectImg})` }}
         >
           <div className='back__background'>
             <a href={data.liveLink}>
