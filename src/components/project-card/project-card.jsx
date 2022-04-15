@@ -5,14 +5,16 @@ import './project-card.media.scss';
 
 function ProjectCard({ data }) {
   let langs = data.languagesUsed;
-  console.log(data);
   return (
     <div className='card'>
       <div className='card__side card__side--front'>
-        <div
-          className='card__layer'
-          style={{ 'background-image': `url(${data.logo})` }}
-        >
+        <div className='card__layer'>
+          <div className='logo-box'>
+            <div
+              style={{ 'background-image': `url(${data.logo})` }}
+              className='card__logo'
+            ></div>
+          </div>
           <div className='card__front-details'>
             <div className='card__title'>{data.projectName}</div>
             <div className='card__sub'>{data.subtitle}</div>

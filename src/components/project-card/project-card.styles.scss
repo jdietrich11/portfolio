@@ -26,10 +26,6 @@
 
     &--front {
       background-color: white;
-      padding: 1rem;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 3fr;
     }
 
     &--back {
@@ -45,6 +41,12 @@
   }
 
   &__layer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__logo {
     position: absolute;
     background-repeat: no-repeat;
     background-size: 12rem 12rem;
@@ -76,7 +78,6 @@
   }
   &__sub {
     font-size: 1.2rem;
-    margin-bottom: 600;
     margin: auto;
     color: #00cccc;
   }
