@@ -87,10 +87,9 @@ const ResumeInfo = () => {
         </div>
         <div className='section-info'>
           I am an aspiring Front End Developer/Full Stack Developer. I am a self
-          taught programmer with experience with JavaScript, React, Redux,
-          Hooks, MySQL, SQL, GIT, HTML, CSS and SCSS. I am currently learning
-          how to use Node.js, Express, and MongoDB. Feel free to look at my work
-          on Github, or reach out to joshua@joshdietrich.org
+          taught programmer. I've spent my time as a security guard learning
+          from Udemy and working on projects. Feel free to look at my work on
+          Github, or reach out to jbdietrich2@gmail.com
         </div>
       </div>
       <div className='section'>
@@ -130,10 +129,11 @@ const ResumeInfo = () => {
             <div className='company'>Kaizen Academy RTC</div>
           </a>
           <div className='job-description'>
-            Mentor boys at the residential treatment home for troubled youth and
-            maintain necessary boundaries. Tutor the boys in a variety of school
-            subjects. Monitor boys activities, conversations, and engage to
-            build relationships. As well as managed all company tech.
+            I setup and managed company tech. I setup PC's for students, managed
+            the filtration system and keyloggers. I mentored boys at the
+            residential treatment home for troubled youth and maintain necessary
+            boundaries. Tutor the boys in a variety of school subjects. Monitor
+            boys activities, conversations, and engage to build relationships.
           </div>
         </div>
         <div className='job'>
