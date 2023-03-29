@@ -35,15 +35,6 @@ const projectData = [
     logo: require('./weblogos/omnifood.png'),
     languagesUsed: ['HTML', 'CSS'],
   },
-  {
-    projectName: 'Crown Clothing',
-    subtitle: 'Clothing Ecommerce',
-    githubLink: 'https://github.com/jdietrich11/crwn-clothing2.0',
-    liveLink: 'https://jdcrwn-clothing.herokuapp.com/shop/hats',
-    projectImg: require('./webImages/crwnclothing.png'),
-    logo: require('./weblogos/crown.png'),
-    languagesUsed: ['HTML', 'CSS', 'React', 'JavaScript'],
-  },
 ];
 
 export default projectData;
